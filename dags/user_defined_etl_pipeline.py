@@ -80,7 +80,7 @@ with DAG(
             task_id='upload_yaml_file_to_s3',
             python_callable=upload_to_s3,
             op_args=[
-                f'/opt/airflow/user_yaml/{user_yaml_file}.yaml',  # change this once you upload your yaml file
+                f'/opt/airflow/user_config/{user_yaml_file}.yaml',  # change this once you upload your yaml file
                 f's3://{user_yaml_bucket}/{user_prefix}/{user_yaml_file}.yaml' # change this once you upload your yaml file
             ]
         )

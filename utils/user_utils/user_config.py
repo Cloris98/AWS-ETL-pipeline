@@ -10,8 +10,8 @@ from pyspark.sql.functions import udf
 
 def parse_configs(user_yaml_path):
     """
-    Your yaml file must be uploaded in user_yaml
-    so your user_yaml_path should be something like: '../user_yaml/xxx.yaml'
+    Your yaml file must be uploaded in user_config
+    so your user_yaml_path should be something like: '../user_config/xxx.yaml'
 
     This returns a dictionary with user defined requirement
     """

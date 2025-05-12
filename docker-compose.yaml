@@ -85,7 +85,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/transforms:/opt/airflow/transforms
     - ${AIRFLOW_PROJ_DIR:-.}/zipped_scripts:/opt/airflow/zipped_scripts
     - ${AIRFLOW_PROJ_DIR:-.}/udf:/opt/airflow/udf
-    - ${AIRFLOW_PROJ_DIR:-.}/user_yaml:/opt/airflow/user_yaml
+    - ${AIRFLOW_PROJ_DIR:-.}/user_config:/opt/airflow/user_config
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
