@@ -1,0 +1,22 @@
+dataSource:
+  sourceLocation: ""  # s3 bucket path
+  AWSIAMRole: "" # for read and retrival sourcedata
+  sourceDataType: ""  # parquet, csv.
+  destinationLocation: ""  # s3 bucket path
+  targetDataType: ""  # parquet, csv.
+  owner:
+    - email_address_1
+    - email_address_2
+transformSpecs:
+  - udfName: user_defined_function1
+    returnType: int
+    features:
+      - feature_name1
+      - feature_name2
+      - feature_name3
+  - udfName: user_defined_function2
+    returnType: float
+    features:
+      - feature_name4
+      - feature_name5
+      - feature_name6
