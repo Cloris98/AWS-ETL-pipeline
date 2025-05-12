@@ -21,7 +21,7 @@ This project demonstrates a modular and fully cloud-based ETL pipeline using **A
 │       ├── __init__.py
 │       └── default_transform.py
 ├── udf/                               # User-defined transformation functions
-├── user_yaml/                         # YAML configs from external users
+├── user_config/                         # YAML configs from external users
 ├── utils/
 │   ├── deploy_utils/
 │   │   └── trigger_glue_job.py        # Glue job trigger logic
