@@ -3,7 +3,7 @@
 This project demonstrates a modular and fully cloud-based ETL pipeline using **Apache Airflow (in Docker)** to orchestrate **AWS Glue** jobs. The ETL logic is fully delegated to cloud services, enabling scalable, serverless data processing with minimal local setup.
 
 ---
-## Data Flow Overview
+## Overview
 
 1. Upload local scripts and zipped folders to `script_bucket`
 2. Create Glue jobs via Airflow DAG
