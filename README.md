@@ -46,16 +46,6 @@ This project demonstrates a modular and fully cloud-based ETL pipeline using **A
 
 ---
 
-## Features
-
-* Orchestration via Airflow DAGs running in Docker
-* AWS Glue jobs for extraction, transformation, and loading
-* Supports modular UDF-based transformation pipelines
-* Parameterized YAML support for dynamic, user-defined ETL
-* Modular folder structure for scalability and reuse
-
----
-
 ##  Setup Instructions
 
 ### 1. Provide AWS Credentials
