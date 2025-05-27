@@ -97,9 +97,9 @@ python-dotenv
 
 ##  UDF Guidence
 
-### 1. Create a new folder under udf folder
-### 2. Upload user defined function to the folder created above
-### 3. Replace the 'udf_folder' and 'udf_zipped_file' in `user_defined_etl_pipeline.py`
+##### 1. Create a new folder under udf folder
+##### 2. Upload user defined function to the folder created above
+##### 3. Replace the 'udf_folder' and 'udf_zipped_file' in `user_defined_etl_pipeline.py`
 ```python
 udf_folder = "your_udf_folder"
 udf_zipped_file = "your_udf_zipped_file"
