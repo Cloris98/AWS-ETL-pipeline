@@ -52,11 +52,11 @@ This project demonstrates a modular and fully cloud-based ETL pipeline using **A
 
 Create a `.env` file at the root of the project:
 
-```env
+```
 AWS_ACCESS_KEY_ID=your_access_key_id
 AWS_SECRET_ACCESS_KEY=your_secret_access_key
-``
->  Use `.env` as a guide.
+```
+>  Use `.env_example` as a guide.
 ### 2. Customize User Configuration (Required!)
 
 In both `dags/etl_pipeline.py` and `dags/user_defined_etl_pipeline.py`, there is a clearly marked `USER CONFIGURATION SECTION`. You **must** replace the placeholder values:
